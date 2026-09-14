@@ -3,6 +3,7 @@
     <img id="logo" src="../static/logo.png" />
     <div class="heading">Pod Library</div>
     <div class="navbar">
+    <!-- This html file follows sevedral SOLID design principles such as the Single Responsibility Principle (as it only contains the navbar items), the Open/Closed Principle (as it holds the base of the navbar which can be modified as we refactor the code), the The Interface Segregation Principle (as all the methods involved are required).-->
         <ul>
             <li><a href="{{ url_for('home') }}">Home Page</a></li>
             <li><a href="{{ url_for('show_podcasts') }}">Podcasts List</a></li>
