@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Podcast Library</title>
+    <link
+      rel="stylesheet"
+      href="../static/css/main.css"
+    />
+	<link
+      rel="icon"
+      href="../static/favicon.ico"
+    />
+</head>
+
+<body>
+    <div id="body">
+      {% include'navbar.html' %}
+        <div id="content-2">
+            <header id="header">
+              CS235 Podcast Library
+              <div class="copyright">&copy; upat161 </div>
+            </header>
+            <div id="container">
+              <main id="main">
+                <div class="search-container">
+                    <input type="text" placeholder="Search Podcast..." class="search-input">
+                    <button class="search-button">Search</button>
+                </div>
+              </main>
+            </div>
+            <div id="podcast-grid">
+              <div class="podcast-item">
+                <a href="./podcastDescription.html">
+                  <img src="../static/tt.png" alt="Trash Taste">
+                  <div class="podcast-info">
+                    <h3>Trash Taste</h3>
+                    <p>Society & Culture &bull; Japan</p>
+                  </div>
+                </a>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/trypod.jpg" alt="The TryPod">
+                <div class="podcast-info">
+                  <h3>The TryPod</h3>
+                  <p>Education &bull; Entertainment</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/simply.jpg" alt="SimplyPodLogical">
+                <div class="podcast-info">
+                  <h3>SimplyPodLogical</h3>
+                  <p>Beauty & Culture</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/buzz.png" alt="BuzzFeed Unsolved Network">
+                <div class="podcast-info">
+                  <h3>BuzzFeed Unsolved Network</h3>
+                  <p>Supernatural & Paranormal</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/unnamed.jpg" alt="Watcher">
+                <div class="podcast-info">
+                  <h3>Watcher</h3>
+                  <p>Entertainment & True Crime</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/hank.png" alt="Dear Hank and John">
+                <div class="podcast-info">
+                  <h3>Dear Hank and John</h3>
+                  <p>Casual &bull; Amateur</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/review.png" alt="The Anthropocene Reviewed">
+                <div class="podcast-info">
+                  <h3>The Anthropocene Reviewed</h3>
+                  <p>Educational &bull; Informative</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/sst.png" alt="SciShow Tangents">
+                <div class="podcast-info">
+                  <h3>SciShow Tangents</h3>
+                  <p>Competitive Knowledge</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/dt.jpg" alt="Delete This!">
+                <div class="podcast-info">
+                  <h3>Delete This!</h3>
+                  <p>Lifestyle</p>
+                </div>
+              </div>
+              <div class="podcast-item">
+                <img src="../static/ycswu.jpg" alt="You Can Sit With Us">
+                <div class="podcast-info">
+                  <h3>You Can Sit With Us</h3>
+                  <p>Comedy &bull; Podcasting &bull; Society & Culture</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
